@@ -1,0 +1,228 @@
+* {
+	margin: 0px;
+}
+
+/* Select All Full Screen */
+body {
+	font-family: "Mate SC", serif;
+}
+.navbar-brand {
+	font-size: 27px;
+	font-weight: 1000;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+nav ul li a {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.bobo {
+	display: flex;
+	justify-content: flex-end;
+}
+
+@media screen and (max-width: 991.5px) {
+	nav .bobo {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+	}
+}
+
+/*********************/
+.contactus {
+	background-color: #ecf0f1;
+}
+.contactus h1 {
+	padding-top: 25px;
+	text-align: center;
+	font-size: 60px;
+}
+
+.contactus p {
+	font-size: 20px;
+	padding-bottom: 8px;
+	padding-top: 5px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+/*
+.contactus .content .email {
+	padding-top: 10px;
+}
+.contactus .content {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+@media (max-width: 767px) {
+	.contactus .content {
+		flex-direction: column;
+	}
+}
+
+
+*/
+
+.main-heading {
+	width: 80%;
+	height: auto;
+	text-align: center;
+}
+
+.po {
+	align-self: center;
+	margin-bottom: 50px;
+}
+
+.nnm {
+	padding: 20px 0;
+}
+
+.emm,
+.mss {
+	padding-bottom: 20px;
+}
+
+.content .ffm {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.contactus .content form .main-input:focus {
+	outline: none;
+}
+
+.contactus .content form textarea.main-input {
+	height: 200px;
+	width: 400px;
+}
+
+.contactus .content form input[type="submit"] {
+	background-color: gold;
+	color: black;
+	padding: 20px;
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.contactus .content #jj,
+.contactus .content #jjj {
+	height: 25px;
+	width: 300px;
+}
+
+.content .info h4 {
+	text-transform: uppercase;
+	margin-top: 30px;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.contactus .content .info {
+	font-size: 30px;
+	color: black;
+	padding: 50px 0;
+}
+
+.contactus .content .info .phone {
+	margin-bottom: 10px;
+}
+
+.contactus .content .info address {
+	color: black;
+	line-height: 2;
+}
+
+/* End Contact Us*/
+
+footer {
+	width: 100%;
+	height: auto;
+	padding: 50px 0 20px 0;
+	background-color: black;
+}
+
+.foot {
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.links ul {
+	list-style: none;
+	margin-right: 30px;
+}
+
+.contact p {
+	font-size: 20px;
+	padding-bottom: 2px;
+}
+
+.links a {
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+
+}
+
+.contact,
+.social,
+.links {
+	color: rgb(255, 255, 255);
+	width: 300px;
+	padding: 20px 0;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.fb {
+	color: blue;
+}
+.tw {
+	color: aqua;
+}
+.ig {
+	color: deeppink;
+}
+.yt {
+	color: red;
+}
+
+i {
+	font-size: 35px;
+	padding: 5px 5px;
+}
+
+.copy p {
+	color: white;
+	text-align: center;
+	border-top: 1px solid white;
+	padding-top: 20px;
+}
+
+/* Footer */
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	height: auto;
+	width: 100%;
+	justify-content: space-evenly;
+}

@@ -1,0 +1,260 @@
+* {
+	margin: 0px;
+	font-family: "Mate SC", serif;
+}
+/* Select All Full Screen */
+
+.navbar-brand {
+	font-size: 27px;
+	font-weight: 1000;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+nav ul li a {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.bobo {
+	display: flex;
+	justify-content: flex-end;
+}
+
+@media screen and (max-width: 991.5px) {
+	nav .bobo {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+	}
+}
+
+/* Home In Nav */
+
+.home {
+	height: 600px;
+	width: 100%;
+
+	background-image: url(fitness-tracker-sport-bracelet-smartwatch-technology.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/* Cover Photo */
+
+.home .klam {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: center;
+}
+/* Paragraph on Cover photo */
+
+.home .klam .main {
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 1000;
+}
+
+.mz {
+	margin-left: 5%;
+}
+/* main Paragraph on Cover photo */
+
+.ss {
+	grid-column: 2/3;
+	grid-row: 3/4;
+	text-align: center;
+}
+/* Join Smart Tracking and Discover Botton on Cover photo */
+
+.home .klam .sec {
+	color: white;
+	font-size: 25px;
+	margin-bottom: 40px;
+	padding-top: 5px;
+}
+/* Join Smart Tracking on Cover photo */
+.discover {
+	color: white;
+	background-color: black;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 15px 25px;
+	border: none;
+	text-align: center;
+	box-shadow: -2px -2px 2px white, 2px 2px 2px white, 2px -2px 2px white,
+		-2px 2px 2px white;
+	cursor: pointer;
+}
+/* Discover Botton on Cover photo */
+
+.discover:hover {
+	color: black;
+	background-color: white;
+	box-shadow: -5px -5px 5px black, 5px 5px 5px black, 5px -5px 5px black,
+		-5px 5px 5px black;
+	transition: 2s;
+}
+/* Discover Botton on Cover photo */
+
+.maa {
+	text-decoration: none;
+	color: white;
+}
+/* Discover Botton on Cover photo */
+.maa:hover {
+	color: black;
+}
+/* Discover Botton on Cover photo */
+.about {
+	height: auto;
+	width: 100%;
+	padding: 50px 0;
+}
+/* About Us */
+
+.top {
+	text-align: center;
+}
+/* About Us */
+
+.jjj {
+	display: flex;
+	justify-content: center;
+}
+/* Who We Are , Our Vision , Our Mission */
+.jjj p {
+	margin: 20px 5px;
+	font-size: 23px;
+	cursor: pointer;
+	padding: 10px 15px;
+}
+/* Who We Are , Our Vision , Our Mission */
+
+.abot {
+	font-size: 50px;
+	padding-top: 30px;
+	height: auto;
+}
+/* About Us */
+.right img {
+	height: 400px;
+	width: 300px;
+}
+/* Image */
+.who,
+.vision,
+.mission {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	height: auto;
+}
+/* Who , Vision , Mission */
+
+.left {
+	width: 500px;
+	height: auto;
+}
+
+.right {
+	height: auto;
+}
+/* Who , Vision , Mission */
+.left h1 {
+	margin-bottom: 20px;
+}
+/* Who , Vision , Mission */
+.hai {
+	display: none;
+}
+/* Who , Vision , Mission */
+.ash {
+	background-color: black;
+	color: white;
+	transition: 1s;
+}
+/* Who , Vision , Mission */
+footer {
+	width: 100%;
+	height: auto;
+	padding: 50px 0 20px 0;
+	background-color: black;
+}
+
+.foot {
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.links ul {
+	list-style: none;
+	margin-right: 30px;
+}
+
+.contact p {
+	font-size: 20px;
+	padding-bottom: 2px;
+}
+
+.links a {
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.contact,
+.social,
+.links {
+	color: rgb(255, 255, 255);
+	width: 300px;
+	padding: 20px 0;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.fb {
+	color: blue;
+}
+.tw {
+	color: aqua;
+}
+.ig {
+	color: deeppink;
+}
+.yt {
+	color: red;
+}
+
+i {
+	font-size: 35px;
+	padding: 5px 5px;
+}
+
+.copy p {
+	color: white;
+	text-align: center;
+	border-top: 1px solid white;
+	padding-top: 20px;
+}
+
+/* Footer */
